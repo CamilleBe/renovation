@@ -21,21 +21,21 @@
             RÉPONDEZ A NOTRE <span>QUESTIONNAIRE RAPIDE</span> POUR NOUS PERMETTRE DE VOUS ACCOMPAGNER DANS L'INSTALLATION DE VOTRE<span>RÉNOVATION GLOBALE !</span><br><br>
 
             DES AIDES <span>(JUSQU’A 3 500€)</span><br><br>
-            DES ECONOMIES <span>(JUSQU’A 70%)</span><br><br>
-            UNE CONSOMATION PLUS <span>VERTE</span>
+            DES <span>ÉCONOMIES</span> <br><br>
+            UNE CONSOMATION <span>RÉDUITE</span>
         </p>
         <div id="form">
-            <p>Trouvez le meilleur montant d’aide pour installer vos travaux de rénovation globale</p>
+            <p>Recevez la meilleure offre pour concrétiser votre projet</p>
             <form action="POST">
                 <div class="f2pl">
                     <select id="status" name="status">
-                        <option value="">→ Vous êtes...</option>
+                        <option value="">→ Vous êtes... <sup>*</sup></option>
                         <option value="owner">Propiétaire</option>
                         <option value="tenant">Locataire</option>
                     </select>
                     <label for="accommodation"></label>
                     <select id="accommodation" name="accommodation">
-                        <option value="">→ Type de logement...</option>
+                        <option value="">→ Type de logement... <sup>*</sup></option>
                         <option value="house">Une maison</option>
                         <option value="appartement">Un appartement</option>
                         <option value="business premises">Locaux professionnels</option>
@@ -44,7 +44,7 @@
                 </div>
 
                 <div class="fl">
-                    <input type="text" id="precision_reno" name="precision_reno" placeholder="→ Précision sur la rénovation">
+                    <input type="text" id="precision_reno" name="precision_reno" placeholder="→ Précision sur la rénovation *">
                 </div>
 
                 <div class="fl exeption">
@@ -55,13 +55,13 @@
                     <label for="female">Mme</label>
 
                     <input type="checkbox" id="other_sex" name="other_sex">
-                    <label for="other_sex">Autre</label>
+                    <label for="other_sex">Non définis</label>
                 </div>
 
                 <div class="f2pl">
-                    <input type="text" id="name" name="name" placeholder="→ Nom">
+                    <input type="text" id="name" name="name" placeholder="→ Nom *">
 
-                    <input type="text" id="first-name" name="first-name" placeholder="→ Prénom">
+                    <input type="text" id="first-name" name="first-name" placeholder="→ Prénom *">
                 </div>
 
                 <div class="fl">
@@ -71,27 +71,27 @@
                 <div class="f2pl">
                     <input type="text" id="town" name="town" placeholder="→ Ville">
 
-                    <input type="text" id="postalCode" name="postalCode" placeholder="→ Code Postal">
+                    <input type="text" id="postalCode" name="postalCode" placeholder="→ Code Postal *">
                 </div>
 
                 <div class="fl">
                     <label for="email"></label>
-                    <input type="text" id="email" name="email" placeholder="→ Adresse e-mail">
+                    <input type="text" id="email" name="email" placeholder="→ Adresse e-mail *">
                 </div>
 
                 <div class="fl">
                     <label for="phone"></label>
-                    <input type="text" id="phone" name="phone" placeholder="→ Numéro de téléphone">
+                    <input type="text" id="phone" name="phone" placeholder="→ Numéro de téléphone *">
                 </div>
 
                 <div id="fb">
                     <div class="exeption" id="acceptations">
                         <input type="checkbox" id="cgu" name="cgu">
-                        <label for="cgu">J'accepte les CGU et que leurs partenaires me communiquent leurs devis</label>
+                        <label for="cgu">J'accepte les CGU et que leurs partenaires me communiquent leurs devis *</label>
                         <br><br>
 
                         <input type="checkbox" id="offre" name="offre">
-                        <label for="offre">J'accepte de recevoir des offres personnalisées email, téléphone et sms de comparer-changer.fr ainsi que de ses partenaires</label>
+                        <label for="offre">J'accepte de recevoir des offres personnalisées email, téléphone et sms de EcoConfortSolution.fr ainsi que de ses partenaires</label>
                     </div>
                     <input type="submit" value="VALIDER" id="hbutton">
                 </div>
@@ -103,7 +103,7 @@
 <div class="contenu">
     <h2>Faites des économies sur vos factures d’énergie !</h2>
     <div class="under-containt">
-        <img src="/img/Building%20Construction.gif" alt="un gif de construction de maison pour illustrer le texte" id="first-image">
+        <img src="img/BuildingConstruction.gif" alt="un gif de construction de maison pour illustrer le texte" id="first-image">
         <div class="txt-prime">
             <h3>EN 2023, MA PRIME RÉNOV S’ÉTEND !</h3>
             <p>
@@ -130,10 +130,10 @@
                 et respectueux de l'environnement.
             </p>
         </div>
-        <img src="/img/Refinery.gif" alt="un gif d'une maison pour illustrer le texte" id="green-house">
+        <img src="img/Refinery.gif" alt="un gif d'une maison pour illustrer le texte" id="green-house">
     </div>
     <div class="contant-button">
-        <button><a href="#form">VÉRIFIER MON ÉLIGIBILITÉ</a></button>
+        <a href="#form"><button>VÉRIFIER MON ÉLIGIBILITÉ</button></a>
     </div>
 </div>
 
@@ -143,7 +143,7 @@
 
 <div class="contenu" id="contenu2">
     <div class="under-containt">
-        <img src="/img/builder-seeing-plan-of-a-construction-site.png" alt="illustration d'un employer qui regarde un plan de construction" id="illustration">
+        <img src="img/builder-seeing-plan-of-a-construction-site.png" alt="illustration d'un employer qui regarde un plan de construction" id="illustration">
         <div class="txt-prime">
             <h3 id="pac">RÉNOVATION GLOBALE</h3>
             <p id="bold">
@@ -160,7 +160,7 @@
                 <li>→ <span class="green-list">Sécurité,</span> les travaux de rénovation globale peuvent améliorer la sécurité des installations électriques et de plomberie.</li>
                 <li>→ <span class="green-list">Esthétique,</span>les travaux de rénovation globale peuvent améliorer l'apparence et la valeur de la maison.</li>
             </ul>
-            <button><a href="#form">COMMENCER MA RÉNOVATION</a></button>
+            <a href="#form"><button>COMMENCER MA RÉNOVATION</button></a>
         </div>
     </div>
 </div>
@@ -168,13 +168,13 @@
 <div class="bandeau">
     <h2>DISPOSITIF DE L’ÉTAT</h2>
     <div id="logo">
-        <img src="/img/Groupprimerenov.png" alt="logo de Ma prime rénov'">
-        <img src="/img/CEE-Certificat-Economie-Energie%201cee.png" alt="logo des certificats d'économies d'énergie">
-        <img src="/img/phast%201.png" alt="logo de France renov'">
-        <img src="/img/phast%20(2)%201.png" alt="logo de RGE eco artisan et logo de RGE QUALIBAT">
+        <img src="img/Groupprimerenov.png" alt="logo de Ma prime rénov'">
+        <img src="img/CEE-Certificat-Economie-Energie%201cee.png" alt="logo des certificats d'économies d'énergie">
+        <img src="img/phast.png" alt="logo de France renov'">
+        <img src="img/phast2.png" alt="logo de RGE eco artisan et logo de RGE QUALIBAT">
     </div>
     <div class="contant-button">
-        <button id="no-shadow"><a href="#form">CALCULER MES AIDES</a></button>
+        <a href="#form"><button id="no-shadow">CALCULER MES AIDES</button></a>
     </div>
 </div>
 
